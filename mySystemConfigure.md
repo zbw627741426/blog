@@ -14,5 +14,7 @@ date: 2017/06/23
    - 开机关闭飞行模式
 
 ## 2. 网络
+   - vsftpd configuration
+   To add user who can connect to the server, we need to modify three config files. `/etc/vsftpd/vsftpd.conf` If `userlist_enable=YES`, then the users in /etc/user_list and /etc/ftpusers will be denied to make connections.Otherwise, only users in these two files will be permitted to connect to .  
 
 ## 3. 本地化
