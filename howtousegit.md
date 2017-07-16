@@ -6,7 +6,7 @@ There are three types of version control systems.
 - Local Version Control Systems
 - Centralized Version Control Systems
 - Distributed Version Control Systems
-And git is the third one.  
+  And git is the third one.  
 
 ## Git's born
 When the linux kernel project can't use BitKeeper(a DVCS),they invented free git.  
@@ -23,7 +23,7 @@ The basic Git workflow goes something like this:
 
 ## Initialize repository
 - In a new directory , type`git init`
-OR
+  OR
 - `git clone <repo>`
 
 If you want start version controling exiting files,use `git add` to track files, and `git commit -m 'initial project version'` to do the first commit .  
@@ -43,3 +43,10 @@ Branch:A branch is a parallel version of the main line of development in the rep
 1.  Develop features
 2.  Fix bugs
 3.  Safely experiment with new ideas
+
+## Add profile
+
+```bash
+git config --global user.name "..."
+git config --global user.email "..."
+```
